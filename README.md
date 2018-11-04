@@ -17,7 +17,9 @@
 #         under the License.
 -->
 
-# localize-app-name
+# FamilyPlanning-localze
+
+This is an hesperianit plugin to localize the Family Planning application. It's based on https://github.com/arthur-tam/localize-app-name
 
 This plugin provides a way to localize your app name
 
@@ -44,8 +46,8 @@ Step 1: Enter plugin.xml with
   <!-- ios -->
   <platform name="ios">
     <resource-file src="locales/ios/en.lproj" />
-    <resource-file src="locales/ios/zh-hant.lproj" />
-    <resource-file src="locales/ios/zh-hans.lproj" />
+    <resource-file src="locales/ios/es.lproj" />
+    <resource-file src="locales/ios/sw.lproj" />
   </platform>
 ```
 Step 2: Edit InfoPlist.strings to your appname
