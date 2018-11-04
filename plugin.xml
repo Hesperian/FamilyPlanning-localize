@@ -20,6 +20,6 @@
   <platform name="android">
     <resource-file src="locales/android/values-en/strings.xml" target="res/values-en/strings.xml" />
     <resource-file src="locales/android/values-es/strings.xml" target="res/values-es/strings.xml" />
-    <resource-file src="locales/android/value-sw/strings.xml" target="res/values-sw/strings.xml" />
+    <resource-file src="locales/android/values-sw/strings.xml" target="res/values-sw/strings.xml" />
   </platform>
 </plugin>
