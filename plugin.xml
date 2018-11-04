@@ -14,5 +14,12 @@
   <platform name="ios">
     <resource-file src="locales/ios/en.lproj" />
     <resource-file src="locales/ios/es.lproj" />
+    <resource-file src="locales/ios/sw.lproj" />
+  </platform>
+
+  <platform name="android">
+    <resource-file src="locales/android/values-en/strings.xml" target="res/values-en/strings.xml" />
+    <resource-file src="locales/android/values-es/strings.xml" target="res/values-es/strings.xml" />
+    <resource-file src="locales/android/value-sw/strings.xml" target="res/values-sw/strings.xml" />
   </platform>
 </plugin>
