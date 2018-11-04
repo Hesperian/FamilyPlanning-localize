@@ -1,0 +1,18 @@
+{
+  "name": "Family-Planning-localize",
+  "version": "1.0.0",
+  "description": "Allows localization of iOS App Name",
+  "cordova": {
+    "id": "org.hesperian.plugings.familyplanning",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "localize",
+    "app name"
+  ],
+  "author": "Hesperian Health Guides"
+}
