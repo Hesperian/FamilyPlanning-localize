@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
   id="org.hesperian.plugins.familyplanning"
-  version="1.0.22">
+  version="1.0.23">
 
   <name>FamilyPlanning-localize</name>
   <description>Allows localization of iOS App Name</description>
@@ -14,12 +14,14 @@
   <platform name="ios">
     <resource-file src="locales/ios/en.lproj" />
     <resource-file src="locales/ios/es.lproj" />
+    <resource-file src="locales/ios/fr.lproj" />
     <resource-file src="locales/ios/sw.lproj" />
   </platform>
 
   <platform name="android">
     <resource-file src="locales/android/values-en/strings.xml" target="res/values-en/strings.xml" />
     <resource-file src="locales/android/values-es/strings.xml" target="res/values-es/strings.xml" />
+    <resource-file src="locales/android/values-fr/strings.xml" target="res/values-es/strings.xml" />
     <resource-file src="locales/android/values-sw/strings.xml" target="res/values-sw/strings.xml" />
   </platform>
 </plugin>
